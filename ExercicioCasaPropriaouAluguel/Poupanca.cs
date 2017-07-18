@@ -28,7 +28,10 @@ namespace ExercicioCasaPropriaouAluguel
             {
                 ValorRendimento = (((Juros / 100) * ValorTotalMes));
                 ValorTotalMes += ValorRendimento;
-                TotalContaAluguel = (((ValorTotalMes)) - ValorDoAluguel);
+                TotalContaAluguel = ValorTotalMes - ValorDoAluguel;
+                ValorTotalMes = TotalContaAluguel;
+
+
             }
             
         }

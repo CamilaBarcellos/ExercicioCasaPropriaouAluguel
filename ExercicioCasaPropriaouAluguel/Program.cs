@@ -34,7 +34,7 @@ namespace ExercicioCasaPropriaouAluguel
 
                  if(poupanca.TotalContaAluguel > poupanca.SaldoDaPoupanca)
                  {
-                     Console.WriteLine("\nÉ mais lucrativo alugar o imóvel.\nO rendimento da poupança será: R${0 :0.##} e o saldo final da conta será: {1}", poupanca.ValorRendimento, poupanca.TotalContaAluguel);
+                     Console.WriteLine("\nÉ mais lucrativo alugar o imóvel.\nO saldo final da conta será: R${0 :0.##}",poupanca.TotalContaAluguel);
                  }
                  else if(poupanca.TotalContaAluguel < poupanca.SaldoDaPoupanca)
                  {
